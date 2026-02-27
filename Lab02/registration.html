@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        .form-box{
+            width: 350px;
+            margin: 40px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        h2{
+            text-align: center;
+        }
+
+        input, select{
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+
+        .inline{
+            width: auto;
+        }
+
+        input[type="submit"]{
+            background-color: orange;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover{
+            background-color: darkorange;
+        }
+        header{
+            text-align: center;
+            color: black;
+            font-weight: bold;
+            background-color: orange;
+            padding: 10px;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+        }
+
+        header a{
+            margin: 15px;
+            color: black;
+            text-decoration: none;
+        }
+
+        header a:hover{
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Landing Page</a>
+            <a href="profile.html">Profile (Task1)</a>
+            <a href="schedule.html">Schedule (Task 2)</a>
+            <a href="navigation.html">Navigation (Task 3)</a>
+            <a href="registration.html">Registration (Task 4)</a>
+            <a href="contact.html">Contact formspree (Task 4)</a>
+        </nav>
+    </header>
+
+    <div class="form-box">
+
+    <h2>Student Registration Form</h2>
+
+    <form>
+
+    Name:<br>
+    <input type="text"><br><br>
+
+    Registration Number:<br>
+    <input type="text"><br><br>
+
+    Email:<br>
+    <input type="email"><br><br>
+
+    Password:<br>
+    <input type="password"><br><br>
+
+    Course:<br>
+    <select>
+        <option>Web Technologies</option>
+        <option>Operating Systems</option>
+        <option>Data Science</option>
+    </select>
+
+    <br><br>
+
+    Semester:<br>
+    <input type="radio" name="sem" class="inline"> 1
+    <input type="radio" name="sem" class="inline"> 2
+    <input type="radio" name="sem" class="inline"> 3
+    <input type="radio" name="sem" class="inline"> 4
+
+    <br><br>
+
+    <input type="checkbox" class="inline"> I accept terms and conditions
+
+    <br><br>
+
+    <input type="submit" value="Register">
+
+    </form>
+
+    </div>
+
+</body>
+</html>
